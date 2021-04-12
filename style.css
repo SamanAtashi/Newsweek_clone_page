@@ -16,3 +16,16 @@ nav {
 /* .header-R button {
 	font-size: 0.6rem;
 } */
+.header-logo {
+	width: 9rem;
+}
+
+/* i used SM and LG size in project */
+@media only screen and (min-width: 576px) {
+}
+
+@media only screen and (min-width: 992px) {
+	.header-logo {
+		width: 25rem;
+	}
+}
