@@ -1,51 +1,58 @@
 /* reseting some part of bootstrap */
 .bg-danger {
-	background-color: #f72210 !important;
+  background-color: #f72210 !important;
 }
+
 .bg-warning {
-	background-color: rgb(255, 228, 0) !important;
+  background-color: rgb(255, 228, 0) !important;
 }
+
 /* *------------------------------------------------- */
 body {
-	background-color: green;
+  background-color: green;
 }
 
 .header-logo {
-	width: 9rem;
-	line-height: 16px;
+  width: 9rem;
+  line-height: 16px;
 }
+
 .footer-logo {
-	width: 15rem;
+  width: 15rem;
 }
+
 .h7 {
-	font-size: 0.9rem;
+  font-size: 0.9rem;
 }
+
 .h8 {
-	font-size: 0.7rem;
+  font-size: 0.7rem;
 }
+
 .w-30 {
-	width: 30% !important;
+  width: 30% !important;
 }
+
 .triangle {
-	width: 0;
-	height: 0;
-	border-left: 13px solid transparent;
-	border-right: 78px solid #f72210;
-	border-top: 13px solid #f72210;
-	top: 0;
-	right: 0;
+  width: 0;
+  height: 0;
+  border-left: 13px solid transparent;
+  border-right: 78px solid #f72210;
+  border-top: 13px solid #f72210;
+  top: 0;
+  right: 0;
 }
 
 /* *------------------------------------------------- */
 
 @media only screen and (min-width: 768px) {
-	.footer-row-2 li a {
-		border-right: 1px solid rgb(222, 226, 230);
-	}
+  .footer-row-2 li a {
+    border-right: 1px solid rgb(222, 226, 230);
+  }
 }
 
 @media only screen and (min-width: 992px) {
-	.header-logo {
-		width: 25rem;
-	}
+  .header-logo {
+    width: 25rem;
+  }
 }
