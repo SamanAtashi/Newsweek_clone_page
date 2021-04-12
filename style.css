@@ -14,8 +14,14 @@ body {
 	width: 9rem;
 	line-height: 16px;
 }
+.footer-logo {
+	width: 15rem;
+}
 .h7 {
 	font-size: 0.9rem;
+}
+.h8 {
+	font-size: 0.7rem;
 }
 .w-30 {
 	width: 30% !important;
