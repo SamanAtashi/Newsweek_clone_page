@@ -37,8 +37,11 @@ body {
 }
 
 /* *------------------------------------------------- */
-/* i used SM and LG size in project */
-@media only screen and (min-width: 576px) {
+
+@media only screen and (min-width: 768px) {
+	.footer-row-2 li a {
+		border-right: 1px solid rgb(222, 226, 230);
+	}
 }
 
 @media only screen and (min-width: 992px) {
