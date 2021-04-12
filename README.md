@@ -4,7 +4,7 @@
 
 > The project is a clone of the Newsweek website.
 
-![](./img/Screenshot.PNG)
+![](./img/Screenshot.png)
 
 This page(in the project) is actually built with the Bootstrap framework.
 
@@ -15,7 +15,7 @@ This page(in the project) is actually built with the Bootstrap framework.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://samanatashi.github.io/Newsweek_clone_page/)
 
 ## 👤 **Saman**
 
