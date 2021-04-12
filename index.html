@@ -35,7 +35,7 @@
 				class="navbar bg-danger d-flex justify-content-between"
 			>
 				<!-- L=Left , C=Center , R=Right -->
-				<div class="header-L d-none d-sm-block">
+				<div class="header-L d-none d-lg-block">
 					<span class="navbar-text">
 						Wed, Jan 20, 2021
 					</span>
@@ -49,9 +49,18 @@
 						/>
 					</a>
 				</div>
-				<div class="header-R d-flex align-items-center">
+				<div
+					class="header-R d-flex align-items-baseline"
+				>
 					<a href="#" class="text-white"
-						><i class="fas fa-user"></i>
+						><i
+							class="d-xs-block d-md-none fas fa-user"
+						></i>
+						<a
+							href="#"
+							class="text-white d-none d-md-block font-weight-bold"
+							>LOGIN</a
+						>
 					</a>
 					<button
 						type="button"
