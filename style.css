@@ -1,25 +1,36 @@
+/* reseting some part of bootstrap */
 .bg-danger {
 	background-color: #f72210 !important;
 }
 .bg-warning {
 	background-color: rgb(255, 228, 0) !important;
 }
+/* *------------------------------------------------- */
 body {
 	background-color: green;
 }
-header {
-	border: 2px solid magenta;
-}
-nav {
-	border: 2px solid blue;
-}
-/* .header-R button {
-	font-size: 0.6rem;
-} */
+
 .header-logo {
 	width: 9rem;
+	line-height: 16px;
+}
+.h7 {
+	font-size: 0.9rem;
+}
+.w-30 {
+	width: 30% !important;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 13px solid transparent;
+	border-right: 78px solid #f72210;
+	border-top: 13px solid #f72210;
+	top: 0;
+	right: 0;
 }
 
+/* *------------------------------------------------- */
 /* i used SM and LG size in project */
 @media only screen and (min-width: 576px) {
 }

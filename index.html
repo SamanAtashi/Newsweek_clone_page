@@ -31,49 +31,191 @@
 	</head>
 	<body>
 		<header>
-			<nav
-				class="navbar bg-danger d-flex justify-content-between align-items-lg-end"
-			>
-				<!-- L=Left , C=Center , R=Right -->
-				<div class="header-L d-none d-lg-block">
-					<span class="navbar-text text-white">
-						Wed, Jan 20, 2021
-					</span>
-				</div>
-				<div class="header-C w-25 h-100">
-					<a class="navbar-brand" href="#">
-						<img
-							src="img/newsweek-logo-white.png"
-							alt="logo"
-							class="header-logo"
-						/>
-					</a>
-				</div>
+			<nav class="navbar d-flex flex-column p-0">
 				<div
-					class="header-R d-flex align-items-baseline"
+					class="container-fluid w-100 row-1 bg-danger d-flex justify-content-between align-items-center align-items-lg-end py-lg-3"
 				>
-					<a href="#" class="text-white"
-						><i
-							class="d-xs-block d-md-none fas fa-user"
-						></i>
+					<!-- L=Left , C=Center , R=Right -->
+					<div class="header-L d-none d-lg-block">
+						<span
+							class="navbar-text text-white ml-3"
+						>
+							Wed, Jan 20, 2021
+						</span>
+					</div>
+					<div class="header-C w-25 h-100">
+						<a
+							class="navbar-brand"
+							href="#"
+						>
+							<img
+								src="img/newsweek-logo-white.png"
+								alt="logo"
+								class="header-logo"
+							/>
+						</a>
+					</div>
+					<div
+						class="header-R d-flex align-items-baseline"
+					>
+						<a href="#" class="text-white"
+							><i
+								class="d-xs-block d-md-none fas fa-user"
+							></i>
+							<a
+								href="#"
+								class="text-white d-none d-md-block font-weight-bold"
+								>LOGIN</a
+							>
+						</a>
+						<button
+							type="button"
+							class="btn bg-warning rounded-pill font-weight-bold py-1 mx-3"
+						>
+							SUBSCRIBE &gt;
+						</button>
 						<a
 							href="#"
-							class="text-white d-none d-md-block font-weight-bold"
-							>LOGIN</a
+							class="text-white d-lg-none"
 						>
-					</a>
-					<button
-						type="button"
-						class="btn bg-warning rounded-pill font-weight-bold py-1 mx-3"
+							<i
+								class="fas fa-bars"
+							></i>
+						</a>
+					</div>
+				</div>
+				<div
+					class="w-100 row-2 bg-white d-none d-lg-block"
+				>
+					<div
+						class="row-2-1 position-relative p-3 border-bottom d-flex"
 					>
-						SUBSCRIBE &gt;
-					</button>
-					<a
-						href="#"
-						class="text-white d-lg-none"
-					>
-						<i class="fas fa-bars"></i>
-					</a>
+						<ul
+							class="list-inline m-0 font-weight-bold"
+						>
+							<li
+								class="list-inline-item pr-2 border-right"
+							>
+								U.S.
+							</li>
+							<li
+								class="list-inline-item pr-2 border-right"
+							>
+								World
+							</li>
+							<li
+								class="list-inline-item pr-2 border-right"
+							>
+								Business
+							</li>
+							<li
+								class="list-inline-item pr-2 border-right"
+							>
+								Tech & Science
+							</li>
+							<li
+								class="list-inline-item pr-2 border-right"
+							>
+								Culture
+							</li>
+							<li
+								class="list-inline-item pr-2 border-right"
+							>
+								Newsgeek
+							</li>
+							<li
+								class="list-inline-item pr-2 border-right"
+							>
+								Sports
+							</li>
+							<li
+								class="list-inline-item pr-2 border-right"
+							>
+								Health
+							</li>
+							<li
+								class="list-inline-item pr-2 border-right"
+							>
+								The Debate
+							</li>
+							<li
+								class="list-inline-item pr-2 border-right"
+							>
+								Experts
+							</li>
+							<li
+								class="list-inline-item pr-3"
+							>
+								Vantage
+							</li>
+						</ul>
+
+						<div class="d-flex">
+							<input
+								type="search"
+								name="search"
+								id="search"
+								placeholder="search"
+								class="border-0 w-30"
+							/>
+							<a
+								href="#"
+								class="text-dark"
+								><i
+									class="fas fa-search"
+								></i
+							></a>
+						</div>
+						<div
+							class="triangle position-absolute"
+						></div>
+					</div>
+					<div class="row-2-2 p-3">
+						<ul
+							class="list-inline m-0 font-weight-bold text-muted h7"
+						>
+							<li
+								class="list-inline-item text-dark pr-3"
+							>
+								TRENDING
+							</li>
+							<li
+								class="list-inline-item pr-3"
+							>
+								JOE BIDEN
+							</li>
+							<li
+								class="list-inline-item pr-3"
+							>
+								DONALD TRUMP
+							</li>
+							<li
+								class="list-inline-item pr-3"
+							>
+								INAUGURATION
+							</li>
+							<li
+								class="list-inline-item pr-3"
+							>
+								CORONAVIRUS
+							</li>
+							<li
+								class="list-inline-item pr-3"
+							>
+								STIMULUS PACKAGE
+							</li>
+							<li
+								class="list-inline-item pr-3"
+							>
+								VACCINE
+							</li>
+							<li
+								class="list-inline-item pr-3"
+							>
+								CAPITAL RIOTS
+							</li>
+						</ul>
+					</div>
 				</div>
 			</nav>
 		</header>
