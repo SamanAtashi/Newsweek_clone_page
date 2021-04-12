@@ -1,0 +1,15 @@
+.bg-danger {
+	background-color: #f72210 !important;
+}
+.bg-warning {
+	background-color: rgb(255, 228, 0) !important;
+}
+body {
+	background-color: green;
+}
+header {
+	border: 2px solid magenta;
+}
+nav {
+	border: 2px solid blue;
+}
