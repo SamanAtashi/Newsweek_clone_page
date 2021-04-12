@@ -12,6 +12,14 @@ body {
   background-color: green;
 }
 
+.header-L {
+  left: 15px;
+}
+
+.header-R {
+  right: 15px;
+}
+
 .header-logo {
   width: 9rem;
   line-height: 16px;
