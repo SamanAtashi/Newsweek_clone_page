@@ -79,6 +79,10 @@ body {
 .vs {
 	top: 87.5px;
 }
+.culture-pic {
+	background-color: rgb(194, 212, 215);
+	bottom: 0;
+}
 
 /* ?-------------------- footer */
 .footer-logo {
