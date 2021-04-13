@@ -65,6 +65,21 @@ body {
 	bottom: 0;
 }
 
+.debate-borders-1 {
+	border-top: 4px solid rgb(217, 217, 217);
+	border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.debate-borders-2 {
+	margin-top: 1px;
+	border-top: 1px solid rgb(217, 217, 217);
+	border-bottom: 4px solid rgb(217, 217, 217);
+}
+
+.vs {
+	top: 87.5px;
+}
+
 /* ?-------------------- footer */
 .footer-logo {
 	width: 15rem;
