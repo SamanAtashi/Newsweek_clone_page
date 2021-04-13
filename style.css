@@ -10,6 +10,9 @@
 .bg-transparent-2 {
 	background-color: rgba(255, 255, 255, 0.9);
 }
+.bg-secondary-2 {
+	background-color: rgb(244, 245, 246);
+}
 
 .text-danger {
 	color: rgb(247, 34, 16) !important;
@@ -79,6 +82,7 @@ body {
 .vs {
 	top: 87.5px;
 }
+
 .culture-pic {
 	background-color: rgb(194, 212, 215);
 	bottom: 0;
