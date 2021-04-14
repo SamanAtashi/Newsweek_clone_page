@@ -10,9 +10,6 @@
 .bg-transparent-2 {
 	background-color: rgba(255, 255, 255, 0.9);
 }
-.bg-secondary-2 {
-	background-color: rgb(244, 245, 246);
-}
 
 .text-danger {
 	color: rgb(247, 34, 16) !important;
@@ -103,6 +100,7 @@
 	.header-logo {
 		width: 25rem;
 	}
+
 	.four-blue-R {
 		width: 100% !important;
 	}
