@@ -116,6 +116,16 @@
 	.w-md-75 {
 		width: 75% !important;
 	}
+	.edi-1,
+	.edi-2,
+	.edi-3,
+	.edi-4,
+	.edi-5,
+	.edi-6,
+	.edi-7,
+	.edi-8 {
+		width: 50%;
+	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -133,5 +143,15 @@
 
 	.four-blue-R {
 		width: 100% !important;
+	}
+	.edi-1,
+	.edi-2,
+	.edi-3,
+	.edi-4,
+	.edi-5,
+	.edi-6,
+	.edi-7,
+	.edi-8 {
+		width: 25%;
 	}
 }
