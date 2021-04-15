@@ -31,14 +31,6 @@
   width: 30% !important;
 }
 
-.w-40 {
-  width: 40% !important;
-}
-
-.w-70 {
-  width: 70% !important;
-}
-
 /* *------------------------------------------------- */
 
 /* ?--------------------- Header */
@@ -105,6 +97,14 @@
 }
 
 @media only screen and (min-width: 992px) {
+  .w-lg-30 {
+    width: 30% !important;
+  }
+
+  .w-lg-70 {
+    width: 70% !important;
+  }
+
   .header-logo {
     width: 25rem;
   }
