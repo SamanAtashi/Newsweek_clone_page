@@ -7,26 +7,12 @@
   background-color: rgb(255, 228, 0) !important;
 }
 
-/* *------------------------------------------------- */
-body {
-  background-color: green;
+.bg-transparent-2 {
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
-.header-L {
-  left: 15px;
-}
-
-.header-R {
-  right: 15px;
-}
-
-.header-logo {
-  width: 9rem;
-  line-height: 16px;
-}
-
-.footer-logo {
-  width: 15rem;
+.text-danger {
+  color: rgb(247, 34, 16) !important;
 }
 
 .h7 {
@@ -45,6 +31,22 @@ body {
   width: 30% !important;
 }
 
+/* *------------------------------------------------- */
+
+/* ?--------------------- Header */
+.header-L {
+  left: 15px;
+}
+
+.header-R {
+  right: 15px;
+}
+
+.header-logo {
+  width: 9rem;
+  line-height: 16px;
+}
+
 .triangle {
   width: 0;
   height: 0;
@@ -53,6 +55,37 @@ body {
   border-top: 13px solid #f72210;
   top: 0;
   right: 0;
+}
+
+/* ?-------------------- Columns */
+
+.red-pic h6 {
+  bottom: 0;
+}
+
+.debate-borders-1 {
+  border-top: 4px solid rgb(217, 217, 217);
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.debate-borders-2 {
+  margin-top: 1px;
+  border-top: 1px solid rgb(217, 217, 217);
+  border-bottom: 4px solid rgb(217, 217, 217);
+}
+
+.vs {
+  top: 87.5px;
+}
+
+.culture-pic {
+  background-color: rgb(194, 212, 215);
+  bottom: 0;
+}
+
+/* ?-------------------- footer */
+.footer-logo {
+  width: 15rem;
 }
 
 /* *------------------------------------------------- */
@@ -64,7 +97,19 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
+  .w-lg-30 {
+    width: 30% !important;
+  }
+
+  .w-lg-70 {
+    width: 70% !important;
+  }
+
   .header-logo {
     width: 25rem;
+  }
+
+  .four-blue-R {
+    width: 100% !important;
   }
 }
