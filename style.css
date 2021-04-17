@@ -1,18 +1,23 @@
 /* reseting some part of bootstrap */
-.bg-danger {
-  background-color: #f72210 !important;
+
+.bg-danger-2 {
+  background-color: #f72210;
 }
 
-.bg-warning {
-  background-color: rgb(255, 228, 0) !important;
+.bg-warning-2 {
+  background-color: rgb(255, 228, 0);
 }
 
 .bg-transparent-2 {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.text-danger {
-  color: rgb(247, 34, 16) !important;
+.bg-secondary-3 {
+  background-color: rgb(244, 245, 246);
+}
+
+.text-danger-2 {
+  color: rgb(247, 34, 16);
 }
 
 .h7 {
@@ -28,7 +33,7 @@
 }
 
 .w-30 {
-  width: 30% !important;
+  width: 30%;
 }
 
 /* *------------------------------------------------- */
@@ -83,6 +88,46 @@
   bottom: 0;
 }
 
+/* ?-------------------- newspaper */
+.magazine-first-pic {
+  left: 0;
+  bottom: 0;
+}
+
+/* ?-------------------- newsletter */
+.SL-content-pics {
+  width: 260px;
+  height: 260px;
+}
+
+.top-left-pic {
+  top: 0;
+  left: 0;
+}
+
+.bottom-right-pic {
+  z-index: 2;
+  bottom: 0;
+  right: 0;
+}
+
+.letter-content-pic {
+  background-image: url(img/newspaper/last-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 170px;
+  width: 100%;
+}
+
+.four-blue-R {
+  width: 50%;
+}
+
+.search-btn-half {
+  width: 50%;
+}
+
 /* ?-------------------- footer */
 .footer-logo {
   width: 15rem;
@@ -94,15 +139,51 @@
   .footer-row-2 li a {
     border-right: 1px solid rgb(222, 226, 230);
   }
+
+  .mag-1,
+  .mag-5,
+  .mag-6,
+  .mag-7,
+  .mag-8 {
+    width: 25%;
+  }
+
+  .mags-2 {
+    width: 75%;
+  }
+
+  .mags-3 {
+    width: 100%;
+  }
+
+  .w-md-75 {
+    width: 75%;
+  }
+
+  .edi-1,
+  .edi-2,
+  .edi-3,
+  .edi-4,
+  .edi-5,
+  .edi-6,
+  .edi-7,
+  .edi-8 {
+    width: 50%;
+  }
+
+  .letter-content-pic,
+  .letter-content-caption {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   .w-lg-30 {
-    width: 30% !important;
+    width: 30%;
   }
 
   .w-lg-70 {
-    width: 70% !important;
+    width: 70%;
   }
 
   .header-logo {
@@ -110,6 +191,37 @@
   }
 
   .four-blue-R {
-    width: 100% !important;
+    width: 100%;
+  }
+
+  .edi-1,
+  .edi-2,
+  .edi-3,
+  .edi-4,
+  .edi-5,
+  .edi-6,
+  .edi-7,
+  .edi-8 {
+    width: 25%;
+  }
+
+  .subscribe-letter {
+    width: 55%;
+  }
+
+  .letter {
+    width: 45%;
+  }
+
+  .letter-content {
+    height: 100%;
+  }
+
+  .letter-content-pic {
+    height: 100%;
+  }
+
+  .search-btn-half {
+    width: 100%;
   }
 }
